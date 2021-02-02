@@ -1,0 +1,29 @@
+{
+  "name": "rnastyv1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "storybook": "start-storybook --no-manager-cache -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "next": "10.0.5",
+    "postcss": "^7.0.35",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@storybook/addon-actions": "^6.1.15",
+    "@storybook/addon-essentials": "^6.1.15",
+    "@storybook/addon-links": "^6.1.15",
+    "@storybook/react": "^6.1.15",
+    "babel-loader": "^8.2.2"
+  }
+}
